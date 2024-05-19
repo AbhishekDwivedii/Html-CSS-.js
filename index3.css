@@ -1,0 +1,22 @@
+
+ body{
+    background-color: rgb(152, 110, 110);
+ }
+.loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 20px  solid black;
+    border-top: 20px green solid;
+
+    
+    animation: animaterotation 3s ease-in  infinite normal;
+}
+@keyframes animaterotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,27 @@
+.container{
+    /* border-radius: 10px; */
+    height: 70vh;
+    width: 30vw;
+    padding: 2px;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 2px 5px 5px ;
+}
+.box1{
+    height: 180px;
+    width: 30vw;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    margin-top: 50px;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background-color: yellow;
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.9HhoHsogGGclAAYwVRwu9wHaGQ?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    border: 2px solid blue;
+    /* border-top: 2px solid white; */
+}

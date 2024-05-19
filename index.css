@@ -1,0 +1,123 @@
+*{
+
+}
+#navbar{
+   height: 50px;
+   width: 1200px;
+  background-color: #0f1111;
+font-size: 25px;
+
+}
+a{
+    color: white;
+    margin-right: 120px;
+
+}
+
+button{
+    color: black;
+    background-color: #f08804;
+  }
+  #logo{
+    text-decoration: none;
+    color: rgb(255, 191, 0);
+  }
+  #searchbar{
+    border: 2px 2px 2px 2px ;
+    border-color: #f08804;
+  }
+  img{
+    height: 50px;
+  }
+  
+/* content{
+    color: rgb(57, 57, 26);
+} */
+#div1{
+   
+    background-color: red;
+    position: relative;
+    top: 200px
+}
+#div2{
+    text-align: left;
+    height: 300px;
+    color: brown;
+}
+#div3{
+    text-align: left;
+    color: rgb(32, 6, 6);
+}
+footer{
+    height: 100px;
+    background-color: #0f1111;
+    text-align: center;
+  }
+  #bgi{
+    height: 200px;
+    width: 200px;
+    /* background-color: red; */
+    border-radius: 50%;
+    backround-size: cover;
+    border: 15px solid blue;
+    
+
+  }
+  #bgi2{
+    height: 200px;
+    width: 200px;
+    /* background-color: yellow; */
+    border-radius: 50%;
+    position: relative;
+    backround-size: cover;
+    border: 15px solid black;
+
+    
+  }
+  #bgi3{
+    height: 200px;
+    width: 200px;
+    /* background-color: green; */
+    border-radius: 50%;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk3qssOKxSLk_QqyOahsAl9qKt-vzvkgFMDET7ND3yoPgb6s2YMNtjoM5nyF03lRJdi8Y&usqp=CAU"); */
+    backround-size: cover;
+    border: 15px solid red;
+     position: relative;
+     /* top: 185px; */
+ 
+
+   
+  }
+  #bgi4{
+    height: 200px;
+    width: 200px;
+    /* background-color: orange; */
+    border-radius: 50%;
+    position:relative;
+    top: 130px;
+    right:590px;
+    backround-size: cover;
+    border: 15px solid yellow;
+   
+  }
+  #bgi5{
+    height: 200px;
+    width: 200px;
+    /* background-color: orange; */
+    border-radius: 50%;
+    position:relative;
+    top: 130px;
+    right:585px;
+    backround-size: cover;
+    border: 15px solid green;
+
+   
+  }
+  body{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJUoqe69SiHgjT-Fq76OhxL_O85YgsC6orIg&usqp=CAU");
+        background-size:cover;
+    }
+    div{
+        display: inline-block;
+        text-align: center;
+    }

@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+
+    padding: 0px;
+}
+.container{
+    border: 5px solid black;
+    display: grid;
+    grid-template-areas: "nav nav nav "
+                         " side contant article"
+                         "footer footer footer";
+  
+
+}
+.item1{
+
+    grid-area: nav ;
+}
+.item2{
+    grid-area: side ;
+}
+.item3{
+    grid-area: contant ;
+}
+.item3{
+    grid-area: article ;
+}
+.item4{
+    grid-area: footer ;
+    
+}
+
+
+.box{
+    background-color: yellow;
+
+    border: 0.1px solid black;
+}
